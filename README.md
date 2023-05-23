@@ -28,4 +28,14 @@ This is my first milestone project for Code Institute. It is designed to be resp
         2. As a Frequent User, I want to be able to register on the website.
         3. As a Frequent User, I want to find a list of best excercizes and links to relevant websites.
 
+- ### Design
+
+  - #### Colour Scheme
+    - The main three colours used are dark gray, white & gold.
+  
+  - #### Typogrraphy
+    - The GT font is being used for some headers. Inter font is being used for the rest of the website. Helvetica & Sans Serif are used as the fallback fonts in case for any reason the font isn't being imported into thr website correctly. Both GT & Inter are clean and simple fonts.
+  
+  - #### Imagery
+    - There are few images used in this website. There is a large background image at the top to catch the viewers attention. There are also smaller images below tith navigation links to other parts of the website.
 
