@@ -45,6 +45,41 @@ This is my first milestone project for Code Institute. It is designed to be resp
 
     -   Healthy Eating Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/Bih-Iytky)
 
-    -   Training Page Wireframe - [View] (https://rp.mockplus.com/editor/38Ov_nF9P/XKL885XlN)
+    -   Training Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/XKL885XlN)
 
     -   Contact Us Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/Bih-Iytky)
+
+## Features
+
+-   Responsive on all device sizes
+
+-   Interactive elements
+
+-   Has links to pdf file
+
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+3. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+4. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+5. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+6. [CodeAnywhere](https://app.codeanywhere.com/)
+    - CodeAnywhere was used for code writting and version control by utilizing the CodeAnywhere terminal to commit to Git and Push to GitHub.
+7. [GitHub:](https://github.com/ignasvilkas/Fitness-Page)
+    - GitHub is used to store the projects code after being pushed from Git
+8. [MockPlus:](https://rp.mockplus.com/team/ps777830)
+    - MockPlus was used to create the [wireframes](https://rp.mockplus.com/team/ps777830) during the design process.
