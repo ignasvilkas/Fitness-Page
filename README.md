@@ -1,8 +1,8 @@
-<h1 align="center">Fitness website</h1>
+<h1 align="center">Fitness Website</h1>
 
 [View the live project here.](https://ignasvilkas.github.io/Fitness-Page/)
 
-This is my first milestone project for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is my first milestone project for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential users.
 
 ------------------------------PICTURE
 
@@ -33,9 +33,18 @@ This is my first milestone project for Code Institute. It is designed to be resp
   - #### Colour Scheme
     - The main three colours used are dark gray, white & gold.
   
-  - #### Typogrraphy
+  - #### Typography
     - The GT font is being used for some headers. Inter font is being used for the rest of the website. Helvetica & Sans Serif are used as the fallback fonts in case for any reason the font isn't being imported into thr website correctly. Both GT & Inter are clean and simple fonts.
   
   - #### Imagery
-    - There are few images used in this website. There is a large background image at the top to catch the viewers attention. There are also smaller images below tith navigation links to other parts of the website.
+    - There are few images used in this website. There is a large background image at the top to catch the viewers attention. There are also smaller images below with navigation links to other parts of the website.
 
+- ### Wireframes
+
+    -   Home Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/KiadOdiQnz)
+
+    -   Healthy Eating Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/Bih-Iytky)
+
+    -   Training Page Wireframe - [View] (https://rp.mockplus.com/editor/38Ov_nF9P/XKL885XlN)
+
+    -   Contact Us Page Wireframe - [View](https://rp.mockplus.com/editor/38Ov_nF9P/Bih-Iytky)
