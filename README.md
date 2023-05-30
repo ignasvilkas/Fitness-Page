@@ -67,7 +67,7 @@ This is my first milestone project for Code Institute. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+1. [Bootstrap 5.2:](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
