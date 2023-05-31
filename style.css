@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+/*--------------------------------------------Colors*/
+
+body {
+    background-color: #1a1a1a;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+    color: #f7f7f7;
+}
+
+/*--------------------------------------------Header*/
+
+.nav {
+    z-index: 1;
+    margin: 5px 300px 0 300px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #c1a686;
+    padding: 10px;
+    position: fixed;
+    width: 70%;
+}
+
+.nav-item {
+    margin: 0 50px 0 50px;
+}
+
+/*--------------------------------------------Section*/
+
+.img-fluid {
+    width: 100%;
+    filter: brightness(75%);
+}
