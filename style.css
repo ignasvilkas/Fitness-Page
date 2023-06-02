@@ -22,8 +22,25 @@ p {
 
 /* ----------------------------------------Special paddings/margins/text */
 
+.nav-item {
+    margin: 0 50px 0 50px;
+}
+
 .uppercase {
     text-transform: uppercase;
+}
+
+.header {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 40px;
 }
 
 /*--------------------------------------------Header*/
@@ -39,15 +56,12 @@ p {
     width: 70%;
 }
 
-.nav-item {
-    margin: 0 50px 0 50px;
-}
-
 /*--------------------------------------------Section*/
 
 .img-fluid {
     width: 100%;
     filter: brightness(70%);
+    margin-bottom: 50px;
 }
 
 .header {
@@ -55,6 +69,6 @@ p {
     top: 40%;
     left: 25%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-weight: 700;
 }
 
