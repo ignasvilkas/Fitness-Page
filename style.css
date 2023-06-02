@@ -14,6 +14,18 @@ body {
     color: #f7f7f7;
 }
 
+h1,
+h2,
+p {
+    color: #fff;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*--------------------------------------------Header*/
 
 .nav {
@@ -35,5 +47,14 @@ body {
 
 .img-fluid {
     width: 100%;
-    filter: brightness(75%);
+    filter: brightness(70%);
 }
+
+.header {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
