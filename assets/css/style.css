@@ -48,6 +48,7 @@ p {
 /*--------------------------------------------Header*/
 
 .nav {
+    font-size: 15px;
     z-index: 1;
     margin: 5px 300px 0 300px;
     border-radius: 15px;
@@ -56,6 +57,20 @@ p {
     padding: 10px;
     position: fixed;
     width: 70%;
+}
+
+.nav-item {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #c1a686;;
+    opacity: 0.8;
+}
+
+a .icon:hover {
+    opacity: 0.8;
 }
 
 /*--------------------------------------------Section*/
