@@ -94,11 +94,11 @@ p {
 }
 
 .btn-training {
-    background-image: url(img/kettlebells.jpeg);
+    background-image: url(/assets/img/kettlebells.jpeg);
     background-size: cover;
 }
 
 .btn-healthy-eating {
-    background-image: url(img/steak.jpeg);
+    background-image: url(/assets/img/steak.jpeg)
     background-size: cover;
 }
