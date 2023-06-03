@@ -105,7 +105,9 @@ a .icon:hover {
     height: 50rem;
     margin: 60px 150px 40px 150px;
     font-size: 100px;
-    
+    display: inline-block;
+    position: relative;
+    line-height: 10;
 }
 
 .btn-training {
@@ -114,6 +116,19 @@ a .icon:hover {
 }
 
 .btn-healthy-eating {
-    background-image: url(../img/steak.jpeg);
+    background-image: url(../img/food.jpeg);
     background-size: cover;
+    background-position: -100px center;
 }
+
+.btn:hover {
+    color: #fff;
+    border-radius: 5px solid;
+    border-color: #ffffff;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+
+
