@@ -63,9 +63,17 @@ p {
     text-decoration: none;
 }
 
+.nav-link {
+    font-size: 13px;
+}
+
 .nav-item a:hover {
     color: #c1a686;;
     opacity: 0.8;
+
+    animation-name: btn-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 a .icon:hover {
@@ -74,18 +82,47 @@ a .icon:hover {
 
 /*--------------------------------------------Section*/
 
-.img-fluid {
+#hero-image {
+    height: 800px;
     width: 100%;
-    filter: brightness(70%);
-    margin-bottom: 50px;
+    background-image: url(../img/front.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+
+}
+
 
 .header {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 25%;
     transform: translate(-50%, -50%);
     font-weight: 700;
+}
+
+.p-header {
+    position: absolute;
+    top: 38%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+
+.container {
+    margin-top: 50px;
 }
 
 .container-img {
@@ -125,8 +162,20 @@ a .icon:hover {
     border-radius: 5px solid;
     border-color: #ffffff;
     transition: all ease-in-out 0.3s;
+
+    animation-name: btn-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes btn-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
 /*--------------------------------------------Footer*/
 
 .container-fluid {
