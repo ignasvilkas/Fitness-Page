@@ -15,10 +15,14 @@ body {
 }
 
 h1,
-h2,
 p {
     color: #fff;
 }
+
+h2 {
+    color: #c1a686;
+}
+
 
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -43,6 +47,14 @@ h2 {
 p {
     font-size: 35px;
     text-align: center;
+}
+
+.macros {
+    color: #c1a686;
+}
+
+.bigger {
+    font-size: 40px;
 }
 
 /*--------------------------------------------Header*/
@@ -242,6 +254,46 @@ a .icon:hover {
     margin: 10px;
 }
 
+/*--------------------------------------------Eating Section Header*/
+
+#eating-image {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/eating.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.header-eating {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 100px;
+}
+
+/*--------------------------------------------Eating Section Pyramid*/
+
+#pyramid-image {
+height: 800px;
+width: auto;
+background-image: url(../img/pyramid.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 500px;
+margin-bottom: 50px;
+}
+
+.list-of-food {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
 
 /*--------------------------------------------Footer*/
 
