@@ -179,7 +179,7 @@ a .icon:hover {
     }
 }
 
-/*--------------------------------------------Home Section Header*/
+/*--------------------------------------------Training Section Header*/
 
 #training-image {
     height: 800px;
@@ -202,7 +202,45 @@ a .icon:hover {
     font-size: 100px;
 }
 
+/*--------------------------------------------Training Section List Of Exercises*/
 
+.training-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px 50px 50px;
+    border-bottom: solid 1px;
+    border-color: #c1a686;
+}
+
+.exercises-weight {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.exercises-list li {
+    color: #c1a686;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #c1a686;
+}
+
+.no-underline:hover {
+    color:#575656
+}
+
+.row-one,
+.row-two {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 
 
 /*--------------------------------------------Footer*/
@@ -233,15 +271,12 @@ h5 {
     justify-content: center;
 }
 
-li {
+.social-links li a {
+    color: #c1a686;
     list-style-type: none;
     display: inline;
     margin: 10px;
     font-size: 25px;
-}
-
-.social-links li a {
-    color: #c1a686;
 }
 
 .social-links li a:hover {
