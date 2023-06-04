@@ -80,7 +80,7 @@ a .icon:hover {
     opacity: 0.8;
 }
 
-/*--------------------------------------------Section Header*/
+/*--------------------------------------------Home Section Header*/
 
 #hero-image {
     height: 800px;
@@ -124,7 +124,7 @@ a .icon:hover {
     margin-top: 50px;
 }
 
-/*--------------------------------------------Section Buttons*/
+/*--------------------------------------------Home Section Buttons*/
 
 .container-img {
     display: flex;
@@ -178,6 +178,33 @@ a .icon:hover {
         transform: scale(1.05);
     }
 }
+
+/*--------------------------------------------Home Section Header*/
+
+#training-image {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/training.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.header-training {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 100px;
+}
+
+
+
+
 /*--------------------------------------------Footer*/
 
 .container-fluid {
