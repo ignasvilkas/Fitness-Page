@@ -26,36 +26,33 @@
                     <a class="nav-link" href="eating.html"><i class="icon fa-solid fa-apple-whole"></i><br><span>Healthy Eating</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html"><i class="icon fa-solid fa-address-book"></i><br><span>Contact Us</span></a>
+                    <a class="nav-link active" aria-current="page" href="signup.html"><i class="icon fa-solid fa-address-book"></i><br><span>Sign Up</span></a>
                 </li>
             </ul>
         </div>
     </header>
 
-    <section>
-        <div class="row no-gutters">
-            <div class="col-md-12">
-                <div id="hero-image">
-                </div>
-                 <h1 class="header uppercase">Fitness Page</h1>
-                 <p class="p-header">A place where training & healthy eating come together</p>
-                <div class="container">
-                    <h2 class="uppercase">All you need to know is here</h2>
-                     <p>Fitness page is a place where people can come to learn about fitness. In short, Fitness page is for people who don't know where to start but want to become healthier and fitter. I was exactly like them, therefore decided to create a website where all the necesarry and usefull information can be found in one place.</p>
-                </div>
-            </div>
-        </div> 
-    </section>
-    <section>
-        <div class="row no-gutters">
-            <div class="col-md-12">
-                <div class="container-img">
-                     <a class="btn btn-training" href="#" role="button">Training</a>
-                     <a class="btn btn-healthy-eating" href="#" role="button">Eating</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="form-section">
+       
+        <form method="post" action="#" class="signup-form">
+            <h2>Join Us!</h2>
+            
+            <label for="fname">First Name</label>
+            <input class="text-input" type="text" id="fname" name="first_name" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" type="text" id="lname" name="last_name" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+
+            <label for="password">Password</label>
+            <input class="text-input" type="password" id="password" name="password" required>
+            
+            <input class="join-button" type="submit" value="Sign Up!">
+        </form>
+  
+    </section> 
 
     <footer class="container-fluid">
         <div class="row">
