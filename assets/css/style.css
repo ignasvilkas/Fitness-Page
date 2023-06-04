@@ -92,6 +92,11 @@ a .icon:hover {
     opacity: 0.8;
 }
 
+.active {
+   color: #c1a686;
+   font-size: 15px;
+}
+
 /*--------------------------------------------Home Section Header*/
 
 #hero-image {
@@ -300,7 +305,7 @@ margin-bottom: 50px;
 .form-section {
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 900px;
     background-image: url(..//img/gym.jpg);
 }
 
@@ -318,6 +323,7 @@ margin-bottom: 50px;
 .signup-form > h2 {
     color:#c1a686;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .text-input {
@@ -337,12 +343,13 @@ margin-bottom: 50px;
     text-align: center;
     font-size: 100%;
     background-color:#c1a686;
-    color: #fafafa;
+    color:#000000;
     display: block;
+    border-radius: 15px;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
+    background-color: #575656;
     color:#c1a686;
 }
 
