@@ -83,3 +83,50 @@ This is my first milestone project for Code Institute. It is designed to be resp
     - GitHub is used to store the projects code after being pushed from Git
 8. [MockPlus:](https://rp.mockplus.com/team/ps777830)
     - MockPlus was used to create the [wireframes](https://rp.mockplus.com/team/ps777830) during the design process.
+
+    ## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fignasvilkas.github.io%2FFitness-Page%2F)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator#warnings)
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+        1. When visiting the site the visitors can clearly see navigation bar at the top with buttons that lead to different parts of the website. Underneath there is a Hero Image with Text.
+        2. The main points are made immediately under the hero image.
+        3. The user can read some information below the hero image and choose different buttons to go to other parts of the website.
+
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        1. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. At the bottom there is a footer section with social links
+        3. On the Sign Up, after a form response is submitted, the page goes to the page not found link as the next page has not been created yet. This will be done in the future.
+
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        1. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+        2. The user can learn about eating healthy & training in different sections.
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find useful information about healthy lifestyle.
+
+        1. There is a lot of information about best exercises and healthy eating habbits for visitors to use.
+
+    2. As a Returning Visitor, I want to find social links so that I could interact with other people who are interested in this topic.
+        1. There are social links in the footer section for visitors to use.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Safari & Brave browsers.
+-   The website is not very responsive on smaller devices yet. This will be fixed in the near future.
+-   Family members were asked to review the site to make sure that everything is working fine.
+
+### Known Bugs
+
+-   Nav bar can dissapear on smaller devices.
+-   The website is not very responsive on phones. This will be fixed in near future.
