@@ -1,10 +1,10 @@
-<h1 align="center">Fitness Website</h1>
+<h1 align="center">Fitness Page</h1>
 
 [View the live project here.](https://ignasvilkas.github.io/Fitness-Page/)
 
 This is my first milestone project for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential users.
 
-------------------------------PICTURE
+<h2 align="center"><img src="https://images.hellomagazine.com/horizon/landscape/f99a5f6ffa62-fitness-goals-t.jpg?tx=c_fill,w_1280"></h2>
 
  ## User Experience (UX)
 
